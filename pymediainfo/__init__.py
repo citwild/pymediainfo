@@ -6,7 +6,7 @@ from pkg_resources import get_distribution
 import xml.etree.ElementTree as ET
 from ctypes import *
 
-__version__ = get_distribution("pymediainfo").version
+#__version__ = get_distribution("pymediainfo").version
 
 class Track(object):
     def __getattribute__(self, name):
